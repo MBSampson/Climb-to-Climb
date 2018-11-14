@@ -1,0 +1,123 @@
+*, body {
+  box-sizing: border-box;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  color: ivory;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/nature.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+hr {
+  width: 30vh;
+}
+
+h1 {
+  font-family: 'BioRhyme', serif;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+p {
+  font-family: 'BioRhyme', serif;
+  font-size: 1.3em;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  font-size: 1.3em;
+  font-family: 'Cabin', sans-serif;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 2% auto 0;
+  display: block;
+}
+
+button:focus {
+  outline: none;
+}
+
+i {
+  color: white;
+}
+
+.hidden {
+  visibility: hidden !important;
+}
+
+.pos-fr {
+  float: right;
+}
+
+
+/* END GENERAL STYLES */
+
+#ctc-main-logo-container {
+  width: 250px;
+  margin: 2.5vh auto;
+  display: block;
+}
+
+#main-container {
+  border: 1px solid ivory;
+  margin: 2.5vh auto;
+  padding: 10px 25px;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.sm-color-card, .sm-hold-card {
+  border: 1px solid ivory;
+  height: 100px;
+}
+
+.sm-hold-card p {
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  display: block;
+}
+
+.sm-color-card p {
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  width: 80px;
+  color: black;
+  display: block;
+}
+
+.game-container-row {
+  padding: 0 25%;
+}
+
+.game-pill {
+  margin: 1% 0;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.25em;
+}
+
+.inactive-pill, .inactive-card {
+  opacity: 0.5;
+}
+

@@ -1,0 +1,59 @@
+.game-rainbow {
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+  color: black;
+}
+
+.game-black {
+  background-color: black;
+  color: ivory;
+}
+
+.game-white {
+  background-color: white;
+  color: black !important;
+}
+
+.game-red {
+  background-color: red;
+  color: white;
+}
+
+.game-green {
+  background-color: green;
+  color: white;
+}
+
+.game-yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.game-blue {
+  background-color: blue;
+  color: white;
+}
+
+.game-pink {
+  background-color: pink;
+  color: black;
+}
+
+.game-gray {
+  background-color: gray;
+  color: white;
+}
+
+.game-brown {
+  background-color: brown;
+  color: white;
+}
+
+.game-orange {
+  background-color: orange;
+  color: black;
+}
+
+.game-purple {
+  background-color: purple;
+  color: white;
+}
