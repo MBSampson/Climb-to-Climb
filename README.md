@@ -1,3 +1,8 @@
+# IN DEVELOPMENT
+Currently undergoing construction.
+1. Implement JS functionality to properly update Game Field and apply Settings to move randomization
+2. Adjust application style (colors, container borders, and overall aethetic of application needs work)
+
 # Climb-To-Climb
 
 A moon board party game similar to twister where climbers must move their hands and feet to the appropriate colored holds.
